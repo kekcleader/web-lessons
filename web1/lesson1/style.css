@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+}
+
+div {
+  border: 2px dashed lime;
+  font-family: monospace;
+  font-size: 22px;
+  line-height: 28px;
+  margin: 30px;
+  padding: 20px;
+}
+
+span {
+  background: #0f0;
+}
+
+.shine {
+  background: #ff0;
+  text-align: center;
+}
+
+.big {
+  font-size: 200%;
+  text-align: right;
+}
+
+.shine.big {
+  text-align: left;
+}
+
+span.shine {
+  color: #f00;
+}
+
+.post {
+  background: #cfc;
+  border: 1px solid #000;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.post.news {
+  background: #fcc;
+}
+
+.post h3 {
+  text-align: center;
+  margin: 0 0 1em;
+}
+
+.post.humor h3 {
+  color: #040;
+}
+
+.post p {
+  color: #06f !important;
+  margin: 0;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.post .photo {
+  float: left;
+  margin: 0 10px 0 0;
+  width: 200px;
+}
+
+.clear {
+  clear: both;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+margin: 10px 20px 40px 80px;
+
+  margin-top:    10px;
+  margin-right:  20px;
+  margin-bottom: 40px;
+  margin-left:   80px;
+
+-----------
+
+margin: 10px 20px 40px;
+
+  margin-top:    10px;
+  margin-right:  20px;
+  margin-bottom: 40px;
+  margin-left:   20px;
+
+-----------
+
+margin: 10px 40px;
+
+  margin-top:    10px;
+  margin-right:  40px;
+  margin-bottom: 10px;
+  margin-left:   40px;
+
+-----------
+
+margin: 20px;
+
+  margin-top:    20px;
+  margin-right:  20px;
+  margin-bottom: 20px;
+  margin-left:   20px;
+
+*/
