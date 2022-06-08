@@ -1,0 +1,122 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+a {
+  color: #0f0;
+}
+
+a:visited {
+  color: #ff0;
+}
+
+h1 {
+  /*margin: -17px 0 -11px;*/
+  margin: 0;
+  text-align: center;
+}
+
+/*
+  margin: ВСЕ;
+  margin: ВЕРТИКАЛЬНЫЕ ГОРИЗОНТАЛЬНЫЕ;
+  margin: ВЕРХ СТОРОНЫ НИЗ;
+  margin: ВЕРХ ПРАВО НИЗ ЛЕВО;
+*/
+
+p {
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #0cf;
+}
+
+.header {
+  background: #f80;
+}
+
+.footer {
+  background: #800;
+  color: #fff;
+}
+
+.page {
+  margin: 20px 0;
+  background: #000;
+}
+
+.page:before {
+  content: '!!!';
+  display: block;
+  background: red;
+  color: #fff;
+  text-align: center;
+  width: 50px;
+  height: 37px;
+  padding: 13px 0 0;
+}
+
+.page:after {
+  content: '!!!';
+  display: block;
+  clear: both;
+
+  background: #ff0;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 13px 0 0;
+}
+
+.sidebar {
+  background: #0c0;
+  float: left;
+  width: 180px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main {
+  background: #00f;
+  color: #fff;
+  margin-left: 180px;
+  padding: 20px;
+}
+
+.post {
+  margin: 0 0 20px;
+}
+
+.links {
+  background: #000;
+  padding: 20px;
+}
+
+/*
+
+
+<div>
+  <div></div>   <-- float: left
+  какой-то текст
+  какой-то текст
+  какой-то текст
+  :after   <-- clear: both
+</div>
+
+
+
+
+
+
+*/

@@ -1,0 +1,53 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+a {
+  color: #0f0;
+}
+
+a:visited {
+  color: #ff0;
+}
+
+h1 {
+  /*margin: -17px 0 -11px;*/
+  margin: 0;
+  text-align: center;
+}
+
+/*
+  margin: ВСЕ;
+  margin: ВЕРТИКАЛЬНЫЕ ГОРИЗОНТАЛЬНЫЕ;
+  margin: ВЕРХ СТОРОНЫ НИЗ;
+  margin: ВЕРХ ПРАВО НИЗ ЛЕВО;
+*/
+
+p {
+  margin: 0;
+}
+
+.wrap {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #0cf;
+}
+
+.header {
+  background: #f80;
+}
+
+.footer {
+  background: #800;
+  color: #fff;
+}
+
+.main {
+  background: #00f;
+  color: #fff;
+  margin: 20px 0;
+}
