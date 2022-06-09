@@ -1,0 +1,33 @@
+
+body {
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+a {
+  color: #f00;
+  font-style: italic;
+  text-decoration: line-through;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: #0c0;
+}
+
+a:hover {
+  color: #0cf;
+  text-decoration: underline overline;
+}
+
+div, p {
+  border: 5px dashed #00f;
+  padding: 20px;
+  margin: 20px;
+  font-weight: 400;
+}
+
+div a {
+  font-weight: inherit;
+}
