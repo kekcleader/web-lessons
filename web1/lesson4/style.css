@@ -1,0 +1,68 @@
+
+body {
+  font-family: sans-serif;
+  font-size: 28px;
+}
+
+ol {
+  list-style-type: armenian;
+}
+
+ol ol {
+  list-style-type: lower-latin;
+}
+
+ol.cyr {
+  list-style-type: none;
+}
+
+ol.cyr li:before {
+  content: "а)";
+  position: absolute;
+
+  margin-left: -1.15em;
+  /* ВАРИАНТ:
+  transform: translate(-1.15em, 0);
+  */
+}
+
+ol.cyr li:nth-child(2):before {content: "б)"}
+ol.cyr li:nth-child(3):before {content: "в)"}
+ol.cyr li:nth-child(4):before {content: "г)"}
+
+/*
+ВАРИАНТ:
+
+ol.cyr li {
+  position: relative;
+}
+
+ol.cyr li:before {
+  content: "а) ";
+  position: absolute;
+  left: -1.15em;
+}
+*/
+
+
+/*
+list-style-type: armenian;
+list-style-type: cjk-ideographic;
+list-style-type: decimal;
+list-style-type: decimal-leading-zero;
+list-style-type: georgian;
+list-style-type: hebrew;
+list-style-type: hiragana;
+list-style-type: hiragana-iroha;
+list-style-type: katakana;
+list-style-type: katakana-iroha;
+list-style-type: lower-alpha;
+list-style-type: lower-greek;
+list-style-type: lower-latin;
+list-style-type: lower-roman;
+list-style-type: upper-alpha;
+list-style-type: upper-latin;
+list-style-type: upper-roman;
+list-style-type: none;
+list-style-type: inherit;
+*/
