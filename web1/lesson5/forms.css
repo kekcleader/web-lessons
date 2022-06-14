@@ -1,0 +1,16 @@
+
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background: #0cf;
+  margin: 40px;
+}
+
+.page {
+  background: #6df;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
