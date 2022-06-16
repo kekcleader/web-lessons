@@ -1,0 +1,14 @@
+DEFINITION Random;
+
+  CONST
+    modulo = 2147483647;
+
+  VAR
+    seed: INTEGER;
+
+  PROCEDURE Int (range: INTEGER): INTEGER;
+  PROCEDURE PutSeed (newSeed: INTEGER);
+  PROCEDURE Randomize;
+  PROCEDURE Uniform (): REAL;
+
+END Random.

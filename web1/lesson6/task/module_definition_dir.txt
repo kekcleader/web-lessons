@@ -1,0 +1,18 @@
+DEFINITION Dir;
+
+  TYPE
+    Rec = RECORD
+      eod, isDir: BOOLEAN;
+      res: INTEGER;
+      name: ARRAY 512 OF CHAR
+    END;
+
+  PROCEDURE Close (VAR r: Rec);
+  PROCEDURE FileExists (name: ARRAY OF CHAR): BOOLEAN;
+  PROCEDURE First (VAR r: Rec; path: ARRAY OF CHAR);
+  PROCEDURE GetCwd (VAR dir: ARRAY OF CHAR);
+  PROCEDURE IsDir (name: ARRAY OF CHAR): BOOLEAN;
+  PROCEDURE Next (VAR r: Rec);
+  PROCEDURE Rewind (VAR r: Rec);
+
+END Dir.
