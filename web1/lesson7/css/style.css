@@ -1,0 +1,85 @@
+body, form {
+  margin: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,46,121,1) 34%, rgba(0,212,255,1) 100%);
+
+  cursor: default;
+  display: flex;
+  min-height: 100vh;
+  padding: 0 20px;
+}
+
+body, input, textarea {
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #ff0;
+  text-shadow: 0 0 5px #ff0;
+}
+
+input, textarea {
+  background: #c10;
+  border: 1px solid #800;
+}
+
+input[type=submit], input[type=button] {
+  cursor: pointer;
+}
+
+.main {
+  max-width: 500px;
+  margin: 50px auto 70px;
+  padding: 15px 30px 30px;
+  box-shadow: 0 0 50px 10px rgba(255, 0, 0, 0.8),
+              0 0 100px rgba(0, 0, 0, 0.3) inset;
+  background: #c10;
+  flex: 1;
+}
+
+h1 {
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.send-form label {
+  display: flex;
+  margin: 20px 0;
+}
+
+.send-form label span {
+  width: 110px;
+}
+
+.send-form label .field {
+  flex: 1;
+}
+
+.comments .comment {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  margin: 20px 0;
+  padding: 15px;
+}
+
+.comments .comment:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+.comments .name {
+  display: inline-block;
+  color: #fff;
+  font-weight: bold;
+  padding: 0 0 5px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.comments .msg {
+  font-style: italic;
+}
